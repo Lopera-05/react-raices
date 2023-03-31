@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'floane';
+    src: url('./fonts/Floane-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Trebuc';
+    src: url(./fonts/trebuc.ttf);
+}
+#menu{
+    font-family: 'floane';
+    font-size: 30px;
+    gap: 3rem;
+}
+.menu-container{
+    background-color: white;
+} 
+.nav-link{
+    color: #008055 !important;
+    
+}
+.nav-link:hover{
+    background-color:#008055 !important;
+    color:#fff !important;
+}
+.barra{
+    background-color: white;
+    border-radius: 10px;
+}
+/* .info{
+    background-color: #008055;
+    color: white;
+    font-family: 'floane';
+    font-size: 20px;
+    border: #008055;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+} */
+.mas-info{
+    text-align: justify;
+}
+.text{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Trebuc';
+}
+.problema-caja{
+    background-color: #e2e2e2;
+    padding: 20px;
+    margin: 3px;
+}
+.problema{
+    font-family: 'floane';
+}
+.img-solucion{
+    row-gap: 1.6rem;
+    border-style: solid;
+    /* border-width: 0px 0 10px 15px; */
+    border-width: 0px 15px 10px 0px;
+    border-color: rgba(72,192,116,255);
+}
+.cont-qns{
+    background-color: #c3f3b0;
+    padding: 2rem;
+    margin: 3px;
+}
+.info-qns{
+    font-family: 'floane';
+}
+.tit-obj{
+    font-family: 'floane';
+    display: flex;
+    justify-content: center;
+}
+
+.card-text{
+    text-align: justify;
+    font-family: 'Trebuc';
+}
+.objetivos{
+    background-color: #e2e2e2;
+    padding: 2rem;
+    margin: 3px;
+}
+.obj:hover{
+    background-color: #4c8ba6;
+    color: white;
+}
+.mision:hover{
+    background-color:  #4c8ba6 ;
+    color: white;
+}
+
+.vision:hover{
+    background-color: #4c8ba6;
+    color: white;
+}
+.tit-personajes{
+    font-family: 'floane';
+}
+.Metodologia{
+    background-color: #008055;
+    opacity:  95%;
+}
+.text-metodologia{
+    font-family: 'floane';
+    color: white;
+}
+.parrafo-metodologia{
+    font-family: 'Trebuc';
+    text-align: justify;
+    color: white;
+}
+.button-play{
+    background-color: white;
+    color: #008055;
+    font-family: 'floane';
+    font-size: 20px;
+    border: #008055;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+.flin{
+   border-color: #9ed688  !important;
+    
+}
+
+.taurus{
+    border-color: #9ed688  !important;
+}
+.contaminator{
+    border-color: #9ed688  !important;
+}
+
+.footer{
+    background-color: #9ed688;
+}
+.text-footer{
+    font-family: 'floane';
+}
+.info-personajes h4{
+    font-family: 'floane';
+}
+.ir-arriba{
+    animation: pelota 0.3s infinite alternate ease-out;
+    border-radius: 30px;
+    display: none;
+    padding: 20px;
+    font-size: 20px;
+    color: #090a0a;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
